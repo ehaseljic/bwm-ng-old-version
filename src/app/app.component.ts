@@ -5,6 +5,11 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
-  title = 'app';
+  componentTitlePropertyBinding ="Ja sam tu da pokazem property binding";
+
+  clickHandler(){
+  alert("Kliknula si-Ovo je Event handler")
+  }
 }
